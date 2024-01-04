@@ -1,4 +1,4 @@
-import { PixelMap } from 'binary-pixel-map';
+import { PixelMap } from '@sitapati/binary-pixel-map';
 import {
   init,
   spiBegin,

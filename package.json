@@ -1,5 +1,5 @@
 {
-  "name": "sh1106",
+  "name": "@sitapati/sh1106",
   "version": "1.1.0",
   "description": "Node.js library to interact with a SH1106 display controller",
   "main": "lib/index.js",
@@ -16,7 +16,7 @@
     "prepublishOnly": "yarn run clean && yarn run build"
   },
   "dependencies": {
-    "binary-pixel-map": "^1.2.1",
+    "@sitapati/binary-pixel-map": "^1.2.1",
     "rpio": "^2.2.0"
   },
   "devDependencies": {
